@@ -32,7 +32,7 @@
 | #  | Projeto        | Descrição                                                                 | Link |
 |----|---------------|--------------------------------------------------------------------------|------|
 | 01 | CALCULADORA   | Calculadora web com operações básicas e interface em tema escuro         | [Abrir](./CALCULADORA) |
-| 02 | COLOR PALETTE | Gerador de paleta de cores com criação aleatória e cópia de código HEX   | [Abrir](./COLOR%20PALETTE) |
+| 02 | COLOR PALETTE | Gerador de paleta de cores com criação aleatória e cópia de código HEX   | [Abrir](./COLORPALLETE) |
 | 03 | PetClean      | Sistema de gerenciamento de petshop com controle de clientes, pets, serviços e agendamentos | [Abrir](./PetClean) |
 | 04 | SHOES WEBSITE | Interface de e-commerce com produtos, carrinho, login e seções informativas | [Abrir](./SHOES%20WEBSITE) |
 
