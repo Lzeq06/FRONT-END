@@ -1,0 +1,52 @@
+
+# 1. CRIAR PROJETO (REACT + VITE)
+
+npm create vite@latest ecommerce
+cd ecommerce
+npm install
+
+
+# 2. INSTALAR TAILWIND V4
+
+npm install tailwindcss @tailwindcss/vite
+
+
+# 3. CONFIGURAR VITE (vite.config.js)
+
+# importar plugin do tailwind
+# adicionar junto com o react
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+})
+
+
+# 4. CONFIGURAR CSS (src/index.css)
+
+@import "tailwindcss";
+
+
+# 5. LIMPAR APP (src/App.jsx)
+
+# remover código padrão e testar
+
+export default function App() {
+  return (
+    <div className="bg-black text-white h-screen flex items-center justify-center">
+      <h1 className="text-4xl font-bold">Projeto iniciado 🚀</h1>
+    </div>
+  )
+}
+
+# 6. RODAR PROJETO
+
+npm run dev
+
+
+# 8. INSTALAR EXTRAS (ANIMAÇÃO + ÍCONES)
+
+npm install framer-motion lucide-react
